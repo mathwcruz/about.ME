@@ -1,0 +1,233 @@
+@import "https://fonts.googleapis.com/css2?family=Courgette&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap";
+
+:root {
+  --black: #131516;
+  --blue: #54AEE3;
+  --dark-blue: #006CB9;
+  --gray: #ABAAAA;
+}
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+  padding: 35px 100px 0px 0px;
+  text-align: right;
+}
+
+.header-container a {
+  padding-right: 15px;
+  text-decoration: none;
+  font-family: 'Courgette', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.header-container a:hover {
+  color: var(--dark-blue);
+  transition: 230ms;
+}
+
+.header-container a.active {
+  color: var(--dark-blue);
+}
+
+#contact {
+  color: var(--blue);
+}
+
+#contact:hover {
+  color: var(--dark-blue);
+  transition: 230ms;
+}
+
+.profile-container {
+  display: flex;
+  width: 1100px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+  background-color: var(--gray);
+}
+
+.image-container img {
+  border-radius: 25px 0px 0px 25px;
+  width: 400px;
+  height: 450px;
+  cursor: pointer;
+}
+
+.description h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  line-height: 50px;
+  padding: 70px 0px 10px 50px;
+}
+
+.description h2 {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+  color: var(--black);
+  font-weight: normal;
+  padding-left: 25px;
+}
+
+.description h3 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+  color: white;
+  padding: 10px 0px 10px 25px;
+}
+
+.description p {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  color: var(--black);
+  padding: 0px 100px 5px 50px;
+}
+
+#about {
+  padding-top: 10px;
+}
+
+#AI,
+#day {
+  text-align: center;
+}
+
+.history h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+
+.programming a,
+.astronomy a,
+.economy a {
+  background-color: var(--black);
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: 'Ropa sans',sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 8px 8px 4px 4px rgba(0, 0, 0, 0.45);
+}
+
+.programming a:hover,
+.astronomy a:hover,
+.economy a:hover {
+  background-color: var(--blue);
+  color: var(--black);
+  transition: 210ms;
+}
+
+.programming,
+.astronomy,
+.economy {
+  display: flex;
+}
+
+.programming a{
+  margin: 0px auto 10px 300px;
+}
+
+.astronomy a{
+  margin: 0px 600px 10px auto;
+}
+
+.economy a{
+  margin: 0px 300px 10px auto;
+}
+
+.gif-home {
+  margin: 30px auto;
+}
+
+.gif-home h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 45px;
+  text-align: center;
+  margin: 20px auto;
+  color: var(--black);
+}
+
+.gif-home img {
+  cursor: pointer;
+}
+
+.contact-interest h1 {
+  font-family: 'Ropa Sans',sans-serif;
+  font-size: 45px;
+  color: var(--black);
+  text-align: center;
+  margin: 30px auto 0px auto;
+}
+
+#botao {
+  text-align: center;
+}
+
+.contact-button {
+  background-color: var(--blue);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: 'Ropa sans',sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--black);
+  border: 1.5px solid var(--dark-blue);
+  cursor: pointer;
+  margin: 30px auto;
+}
+
+.contact-button:hover {
+  color: white;
+  background-color: var(--black);
+  transition: 220ms;
+}
+
+footer {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: var(--gray);
+  padding: 30px 0px;
+  box-shadow: 8px 8px 12px 12px rgba(0, 0, 0, 0.4);
+}
+
+footer p {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 28px;
+  color: var(--black);
+  font-weight: bold;
+}

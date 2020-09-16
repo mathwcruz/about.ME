@@ -1,0 +1,262 @@
+@import "https://fonts.googleapis.com/css2?family=Courgette&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap";
+
+:root {
+  --black: #131516;
+  --blue: #54AEE3;
+  --dark-blue: #006CB9;
+  --gray: #ABAAAA;
+}
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+  padding: 35px 100px 0px 0px;
+  text-align: right;
+}
+
+.header-container a {
+  padding-right: 15px;
+  text-decoration: none;
+  font-family: 'Courgette', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.header-container a:hover {
+  color: var(--dark-blue);
+  transition: 230ms;
+}
+
+.header-container a.active {
+  color: var(--dark-blue);
+}
+
+#contact {
+  color: var(--blue);
+}
+
+#contact:hover {
+  color: var(--dark-blue);
+  transition: 230ms;
+}
+
+.astronomy-title {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.astronomy-title h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 90px;
+  color: var(--dark-blue);
+}
+
+#machine-title::after {
+  content: '/>';
+  color: var(--black);
+  margin-left: 10px;
+  opacity: 1;
+}
+
+#machine-title::before {
+  content: '<';
+  margin-right: 10px;
+  color: var(--black);
+  margin-left: 6px;
+  opacity: 1;
+}
+
+.astronomy-history {
+  width: 850px;
+  height: 250px;
+  margin: 40px auto;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+  background-color: var(--gray);
+}
+
+.astronomy-history h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding: 10px 0px 10px 20px;
+}
+
+.astronomy-history p {
+  font-family: 'Ropa sans',sans-serif;
+  color: var(--black);
+  font-size: 26px;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+
+.astronomy-channel {
+  width: 850px;
+  height: 650px;
+  text-align: center;
+  margin: 0px auto 60px auto;
+}
+
+.astronomy-channel h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+.astronomy-channel img {
+  margin: 15px auto 5px auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.astronomy-channel p {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 24px;
+  color: var(--black);
+  margin: 10px auto;
+}
+
+#recommend {
+  color: var(--dark-blue);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.astronomy-book {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 800px;
+  height: 450px;
+  background-color: var(--gray);
+  border-radius: 10px;
+  margin: 10px auto 60px auto;
+  padding: 15px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.image-book img {
+  width: 95%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.book-details {
+  width: 400px;
+  height: 225px;
+  text-align: center;
+}
+
+.book-details h1 {
+  margin-top: 55px;
+  font-family: 'Courgette',sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.book-details h2 {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 28px;
+  color: var(--black);
+  margin: 5px auto;
+}
+
+.book-details p {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 22px;
+  color: var(--black);
+  text-align: center;
+  margin: 30px auto;
+}
+
+.other-subjects {
+  font-family: 'Courgette',sans-serif;
+  font-size: 30px;
+  color: var(--black);
+  text-align: center;
+}
+
+.buttons-subjetcs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px auto;
+  text-align: center;
+  margin: 35px auto 70px auto;
+}
+
+#programming-button a {
+  background-color: var(--black);
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: 'Ropa sans',sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 8px 8px 4px 4px rgba(0, 0, 0, 0.45);
+  margin-left: 350px;
+}
+
+#programming-button a:hover {
+  background-color: var(--blue);
+  color: var(--black);
+  transition: 210ms;
+}
+
+#economy-button a {
+  background-color: var(--black);
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: 'Ropa sans',sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 8px 8px 4px 4px rgba(0, 0, 0, 0.45);
+  margin-right: 350px;
+}
+
+#economy-button a:hover {
+  background-color: var(--blue);
+  color: var(--black);
+  transition: 210ms;
+}
+
+footer {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: var(--gray);
+  padding: 30px 0px;
+  box-shadow: 8px 8px 12px 12px rgba(0, 0, 0, 0.4);
+}
+
+footer p {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 28px;
+  color: var(--black);
+  font-weight: bold;
+}

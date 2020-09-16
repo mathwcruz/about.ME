@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Programação | About.ME</title>
+    <link rel="stylesheet" href="/styles/programming.css">
+    <link rel="shortcut icon" href="/images/lion.png">
+  </head>
+
+  <body>
+    
+    <header>
+      <div class="header-container">
+        <a href="/views/home.html">Home</a>
+        <a class = "active" href="/views/programming.html">Programação</a>
+        <a href="/views/astronomy.html">Astronomia</a>
+        <a href="/views/economy.html">Economia</a>
+        <a id = "contact" href="/views/contact.html">Contate-me 📱</a>
+    </header>
+
+    <div class="programming-title">
+      <h1 id = "machine-title">Programação</h1>
+    </div>
+
+    <div class="programming-history">
+      <h1>Meu contato com a Programção 💻</h1>
+      <p>Na minha infância, não fui aquele guri que só ficava na frente do PS2 ou jogando no clickjogos o tempo todo, até os meus 18 anos eu não sabia ao certo qual carreira iria seguir.</p>
+      <p>Foi quando parei para analisar e pensar o que eu sou bom e o que me interessa. Depois de algumas pesquisas, muitos vídeos e alguns testes vocacionais, decidi encarar o mundo do desenvolvimento.</p>
+      <p>Desde então me interesso cada vez mais pelo assunto e fico maravilhado com o que posso conquistar trabalhando nessa área, assim como a capacidade de agregar valor à sociedade.</p>
+    </div>
+
+    <div class="programming-channel">
+      <h1>Canais de conteúdo</h1>
+      <img src="/images/curso_em_video.png" alt="Curso em Video">
+      <p>Uma das primeiras fontes de informação que eu tive contato foi com o canal do Gustavo Guanabra, o Curso em Video, onde detém diversos cursos para iniciantes em programção que queiram uma explicação mais detalhada da tecnologia abordada.</p>
+      <p>Fiz os cursos de algoritmos e programação, Java para iniciantes e WordPress, me ajudaram muito a entender um pouco mais sobre a área de desenvolvimento e para eu ter certeza de que é essa a carreira que eu pretendo seguir.</p>
+    </div>
+
+    <div class="my-portfolio">
+      <h1>Um pouco do meu portifólio</h1>
+      <p>Conforme estudo o assunto na teoria, desenvolvo uma pequena aplicação para fixar o conteúdo estudado e para criar o hábito da prática.</p>
+      <p>Creio que para consquistar um espaço no mercado e entender o que está acontecendo com aquela aplicação por "debaixo dos panos", é necessário muita prática, porque só assim podemos entender um pouco dos possíveis problemas que podem surgir no dia a dia profissional.</p>
+      <h1 id = "portfolio-title">CriCruz</h1>
+      <img id = "diviser" src="/images/divisor-preto.png" alt="">
+      <a href="https://github.com/mathwcruz/CriCruz" target="_blank"><img src="/images/GIF_CriCruz.gif" width="850px"/></a>
+      <h1 id = "portfolio-title">Fresco</h1>
+      <img id = "diviser" src="/images/divisor-preto.png" alt="">
+      <a href="https://github.com/mathwcruz/Fresco" target="_blank"><img src="/images/GIF_Fresco.gif" width="850px"/></a>
+    </div>
+
+    <div class="courses">
+      <h1>Plataformas de conteúdo</h1>
+      <h2>Algumas das plataformas que oferecem um excelente conteúdo de programação</h2>
+    </div>
+    <div class="courses-plataforms">
+
+      <div class="rockeseat">
+        <h1>Rockeseat</h1>
+        <img src="/images/rocketseat.png" alt="Rockeseat">
+        <div class="details">
+          <a href="https://app.rocketseat.com.br/dashboard" target="_blank">Confira</a>
+        </div>
+      </div>
+
+      <div class="alura">
+        <h1>Alura</h1>
+        <img src="/images/alura.png" alt="Alura">
+        <div class="details">
+          <a href="https://www.alura.com.br/" target="_blank">Confira</a>
+        </div>
+      </div>
+
+      <div class="origamid">
+        <h1>Origamid</h1>
+        <img src="/images/origamid.png" alt="Origamid">
+        <div class="details">
+          <a href="https://www.origamid.com/" target="_blank">Confira</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="programming-serie">
+      <div class="serie-details">
+        <h1>GDLK</h1>
+        <h2>Série que aborda a evolução dos videogames</h2>
+        <p>Essa série documental da Netflix aborda a história dos jogos, tanto em consoles como em computadores.</p>
+        <p>Muito nostálgica e interessante, pois conta com games muito conhecidos por todos e seus respectivos criadores.</p>
+      </div>
+      <div class="serie-image">
+        <img src="/images/GDLK.jpg" alt="GDLK">
+      </div>
+    </div>
+
+    <div class="other-subjects">
+      <h1>Confira outros assuntos que me cativam</h1>
+    </div>
+
+    <div class="buttons-subjetcs">
+      <div id="astronomy-button">
+        <a href="/views/astronomy.html">Astronomia</a>
+      </div>
+      <div id="economy-button">
+        <a href="/views/economy.html">Economia</a>
+      </div>
+    </div>
+
+    <button onclick = "backToTop()" id="button-top">SUBIR</button>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      #button-top {
+      position: fixed;
+      font-family: 'Ropa Sans',sans-serif;
+      font-size: 18px;
+      bottom: 25px;
+      right: 30px;
+      width: 55px;
+      height: 55px;
+      color: white;
+      background-color: var(--dark-blue);
+      border: none;
+      border-radius: 50vh;
+      display: none;
+      cursor: pointer;
+      }
+
+      #button-top:hover {
+        background-color: var(--black);
+        transition: 220ms;
+      }
+
+    </style>
+
+    <footer>
+      <p>Todos os direitos reservados a Matheus da Cruz</p>
+    </footer>
+
+    <script src="/javaS/scripts.js"></script>
+
+  </body>
+
+</html>

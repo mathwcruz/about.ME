@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Home | About.ME</title>
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="shortcut icon" href="/images/lion.png">
+  </head>
+
+  <body>
+    
+    <header>
+      <div class="header-container">
+        <a class = "active" href="/views/home.html">Home</a>
+        <a href="/views/programming.html">Programação</a>
+        <a href="/views/astronomy.html">Astronomia</a>
+        <a href="/views/economy.html">Economia</a>
+        <a id = "contact" href="/views/contact.html">Contate-me 📱</a>
+      </div>
+    </header>
+
+    <div class="profile-container">
+      <div class="image-container">
+        <img src="/images/perfil_gremista.jpg" alt="Matheus da Cruz">
+      </div>
+      <div class="description">
+        <h1 id = "machine-title">Matheus Wachholtz da Cruz</h1>
+        <h2>🎉 19 anos</h2>
+        <h2>⚽ Gremista</h2>
+        <h2>♉ Taurino</h2>
+        <h3>Vidrado em tecnologia, astronomia e economia</h3>
+        <p>Estudante de programação com foco em front end e cativado</p>
+        <p id = "AI" >por IA, Machine Learning e Design</p>
+        <p id = "about" >Um dos meus maiores sonhos é conseguir aliar a profissão com</p>
+        <p id = "day" >assuntos que me instigam a estudar mais a cada dia</p>
+      </div>
+    </div>
+
+    <div class="history">
+      <h1>Conheça um pouco da minha história com cada assunto</h1>
+    </div>
+
+    <div class="programming">
+      <a href="/views/programming.html">Programação</a>
+    </div>
+
+    <div class="astronomy">
+      <a href="/views/astronomy.html">Astronomia</a>
+    </div>
+
+    <div class="economy">
+      <a href="/views/economy.html">Economia</a>
+    </div>
+
+    <div class="gif-home">
+      <h1>Um pouco do meu início como desenvolvedor</h1>
+      <p align ="center">
+        <a href="https://github.com/mathwcruz/Fresco" target="_blank"><img src="/images/GIF_Fresco.gif" width="1000px"/></a>
+      </p>
+    </div>
+
+    <div class="contact-interest">
+      <h1>Contate-me para trocar uma ideia 😎</h1>
+      <form action = "/views/contact.html">
+        <div id = "botao">
+          <input 
+            type = "submit"
+            name = "botao" 
+            value = "Contato ↬" 
+            class = "contact-button"
+            action = "/views/contact.html"
+            href = "/views/contact.html"
+            >
+        </div>
+      </form>
+    </div>
+
+    <button onclick = "backToTop()" id="button-top">SUBIR</button>
+
+    <footer>
+      <p>Todos os direitos reservados a Matheus da Cruz</p>
+    </footer>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      #button-top {
+      position: fixed;
+      font-family: 'Ropa Sans',sans-serif;
+      font-size: 18px;
+      bottom: 25px;
+      right: 30px;
+      width: 55px;
+      height: 55px;
+      color: white;
+      background-color: var(--dark-blue);
+      border: none;
+      border-radius: 50vh;
+      display: none;
+      cursor: pointer;
+      }
+
+      #button-top:hover {
+        background-color: var(--black);
+        transition: 220ms;
+      }
+
+      #machine-title::after {
+        content: '|';
+        color: var(--black);
+        margin-left: 6px;
+        opacity: 1;
+        animation: blink .6s infinite;
+      }
+
+      @keyframes blink {
+        0%, 100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+
+    </style>
+
+    <script>
+      window.onscroll = function () {
+        scroll()
+      }
+      function scroll () {
+        let button = document.getElementById("button-top")
+        if (document.documentElement.scrollTop > 50) {
+          button.style.display = "block"
+        }else {
+          button.style.display = "none"
+        }
+      }
+
+      function backToTop () {
+        document.documentElement.scrollTop = 0
+      }
+    </script>
+
+    <script>
+      function typeWriter (element) {
+        const textArray = element.innerHTML.split('')
+        element.innerHTML = ''
+        textArray.forEach((letter, i) => {
+        setTimeout(() => element.innerHTML += letter, 100 * i)
+        })
+      }
+
+      const machine_effect = document.querySelector('#machine-title')
+      typeWriter(machine_effect)
+    </script>
+
+  </body>
+
+</html>

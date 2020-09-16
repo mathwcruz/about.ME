@@ -1,0 +1,284 @@
+@import "https://fonts.googleapis.com/css2?family=Courgette&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap";
+
+:root {
+  --black: #131516;
+  --blue: #54AEE3;
+  --dark-blue: #006CB9;
+  --gray: #ABAAAA;
+}
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+  padding: 35px 100px 0px 0px;
+  text-align: right;
+}
+
+.header-container a {
+  padding-right: 15px;
+  text-decoration: none;
+  font-family: 'Courgette', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.header-container a:hover {
+  color: var(--dark-blue);
+  transition: 230ms;
+}
+
+.header-container a.active {
+  color: var(--dark-blue);
+}
+
+#contact {
+  color: var(--blue);
+}
+
+#contact:hover {
+  color: var(--dark-blue);
+  transition: 230ms;
+}
+
+.economy-title {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.economy-title h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 90px;
+  color: var(--dark-blue);
+}
+
+#machine-title::after {
+  content: '/>';
+  color: var(--black);
+  margin-left: 10px;
+  opacity: 1;
+}
+
+#machine-title::before {
+  content: '<';
+  margin-right: 10px;
+  color: var(--black);
+  margin-left: 6px;
+  opacity: 1;
+}
+
+#economy-introduction {
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+  background-color: var(--gray);
+  height: 300px;
+}
+
+#economy-introduction h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 0px 10px 20px;
+}
+
+#economy-introduction p {
+  font-family: 'Ropa sans',sans-serif;
+  color: var(--black);
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 5px 5px 10px;
+}
+
+.economy-history {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 1300px;
+  height: 300px;
+  margin: 80px auto;
+}
+
+.image-terceirao {
+  height: 300px;
+}
+
+.image-terceirao img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  margin: 0px 20px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.economy-channel {
+  text-align: center;
+  width: 1200px;
+  height: 450px;
+  margin: 100px auto;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+  background-color: var(--gray);
+}
+
+.economy-channel h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 30px 0px 0px;
+  text-align: center;
+}
+
+.economy-channel img {
+  margin: -35px auto;
+  width: 45%;
+  height: 50%;
+  cursor: pointer;
+}
+
+#economy-channel-p1 {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 24px;
+  color: var(--black);
+  padding: 10px 30px 10px 0px;
+  font-weight: bold;
+}
+
+#economy-channel-p2,
+#economy-channel-p3,
+#economy-channel-p4 {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 24px;
+  color: var(--black);
+  text-align: center;
+  margin: 10px auto;
+  padding: 0px 10px;
+}
+
+.economy-book {
+  display: grid;
+  grid-template-columns: 300px 700px;
+  width: 800px;
+  height: 400px;
+  margin: 0px auto 80px auto;
+  text-align: center;
+}
+
+.image-book img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.book-description h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 45px;
+  color: var(--dark-blue);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.book-description h2{
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 28px;
+  color: var(--black);
+  margin: 15px auto;
+}
+
+.book-description p {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 22px;
+  color: var(--black);
+  margin-top: 35px;
+}
+
+#book-recomend {
+  margin-top: 25px;
+}
+
+.other-subjects {
+  font-family: 'Courgette',sans-serif;
+  font-size: 30px;
+  color: var(--black);
+  text-align: center;
+}
+
+.buttons-subjetcs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px auto;
+  text-align: center;
+  margin: 35px auto 70px auto;
+}
+
+#programming-button a {
+  background-color: var(--black);
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: 'Ropa sans',sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 8px 8px 4px 4px rgba(0, 0, 0, 0.45);
+  margin-left: 350px;
+}
+
+#programming-button a:hover {
+  background-color: var(--blue);
+  color: var(--black);
+  transition: 210ms;
+}
+
+#astronomy-button a {
+  background-color: var(--black);
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: 'Ropa sans',sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 8px 8px 4px 4px rgba(0, 0, 0, 0.45);
+  margin-right: 350px;
+}
+
+#astronomy-button a:hover {
+  background-color: var(--blue);
+  color: var(--black);
+  transition: 210ms;
+}
+
+footer {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: var(--gray);
+  padding: 30px 0px;
+  box-shadow: 8px 8px 12px 12px rgba(0, 0, 0, 0.4);
+}
+
+footer p {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 28px;
+  color: var(--black);
+  font-weight: bold;
+}

@@ -1,0 +1,386 @@
+@import "https://fonts.googleapis.com/css2?family=Courgette&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap";
+
+:root {
+  --black: #131516;
+  --blue: #54AEE3;
+  --dark-blue: #006CB9;
+  --gray: #ABAAAA;
+}
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+  padding: 35px 100px 0px 0px;
+  text-align: right;
+}
+
+.header-container a {
+  padding-right: 15px;
+  text-decoration: none;
+  font-family: 'Courgette', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.header-container a:hover {
+  color: var(--dark-blue);
+  transition: 230ms;
+}
+
+.header-container a.active {
+  color: var(--dark-blue);
+}
+
+#contact {
+  color: var(--blue);
+}
+
+#contact:hover {
+  color: var(--dark-blue);
+  transition: 230ms;
+}
+
+.programming-title {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.programming-title h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 90px;
+  color: var(--dark-blue);
+}
+
+#machine-title::after {
+  content: '/>';
+  color: var(--black);
+  margin-left: 10px;
+  opacity: 1;
+}
+
+#machine-title::before {
+  content: '<';
+  margin-right: 10px;
+  color: var(--black);
+  margin-left: 6px;
+  opacity: 1;
+}
+
+.programming-history {
+  text-align: center;
+  width: 850px;
+  height: 250px;
+  margin: 30px auto;
+}
+
+.programming-history h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--black);
+  padding: 10px 0px 10px 20px;
+}
+
+.programming-history p {
+  font-family: 'Ropa sans',sans-serif;
+  color: var(--black);
+  font-size: 22px;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+
+.programming-channel {
+  width: 850px;
+  height: 400px;
+  text-align: center;
+  margin: 40px auto;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+  background-color: var(--gray);
+}
+
+.programming-channel h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+
+.programming-channel img {
+  cursor: pointer;
+  margin-bottom: -15px;
+}
+
+.programming-channel p {
+  font-family: 'Ropa sans',sans-serif;
+  color: var(--black);
+  font-size: 24px;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+
+.my-portfolio {
+  width: 850px;
+  height: 100%;
+  margin: 0px auto 15px auto;
+  text-align: center;
+}
+
+.my-portfolio h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--dark-blue);
+  padding-bottom: 10px;
+}
+
+.my-portfolio p {
+  font-family: 'Ropa sans',sans-serif;
+  color: var(--black);
+  font-size: 24px;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+
+#portfolio-title {
+  color: var(--blue);
+  font-size: 55px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+#diviser {
+  width: 35%;
+  height: 35%;
+  padding-bottom: 10px;
+}
+
+.my-portfolio a {
+  box-shadow: 16px 4px 16px 4px rgba(0, 0, 0, 0.5);
+}
+
+#portfolio-github:hover {
+  color: black;
+  background-color: var(--blue);
+  transition: 200ms;
+}
+.courses {
+  text-align: center;
+  width: 1100px;
+  height: 80px;
+  margin: 40px auto 20px auto;
+}
+
+.courses h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+.courses h2 {
+  font-family: 'Ropa sans',sans-serif;
+  color: var(--black);
+  font-size: 32px;
+  text-align: center;
+}
+
+.courses-plataforms {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px auto;
+  width: 1200px;
+  height: 600px;
+}
+
+.rockeseat,
+.origamid,
+.alura {
+  margin: 0px 20px;
+  width: 380px;
+  height: 500px;
+}
+
+.rockeseat h1,
+.origamid h1,
+.alura h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--dark-blue);
+  margin-top: 10px;
+}
+
+.rockeseat img,
+.origamid img,
+.alura img {
+  width: 380px;
+  height: 380px;
+  border-radius: 70px;
+}
+
+.details {
+  margin: 25px auto 0px auto;
+  text-align: center;
+}
+
+.rockeseat a,
+.origamid a,
+.alura a {
+  background-color: var(--black);
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: 'Ropa sans',sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 8px 8px 4px 4px rgba(0, 0, 0, 0.45);
+}
+
+.rockeseat a:hover,
+.origamid a:hover,
+.alura a:hover {
+  background-color: var(--blue);
+  color: var(--black);
+  transition: 210ms;
+}
+
+.programming-serie {
+  display: grid;
+  grid-template-columns: 45% 65%;
+  width: 900px;
+  height: 400px;
+  margin-bottom: 30px;
+  background-color: var(--gray);
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+  margin: 10px auto 60px auto;
+}
+
+.serie-details h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin: 25px auto 5px auto;
+}
+
+.serie-details h2 {
+  font-family: 'Ropa sans',sans-serif;
+  color: var(--black);
+  font-size: 30px;
+  text-align: left;
+  margin: 10px 0px 5px 15px;
+}
+
+.serie-details p {
+  font-family: 'Ropa sans',sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto 5px auto;
+}
+
+.serie-image img {
+  width: 85%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.other-subjects {
+  font-family: 'Courgette',sans-serif;
+  font-size: 30px;
+  color: var(--black);
+  text-align: center;
+}
+
+.buttons-subjetcs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px auto;
+  text-align: center;
+  margin: 35px auto 70px auto;
+}
+
+#astronomy-button a {
+  background-color: var(--black);
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: 'Ropa sans',sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 8px 8px 4px 4px rgba(0, 0, 0, 0.45);
+  margin-left: 350px;
+}
+
+#astronomy-button a:hover {
+  background-color: var(--blue);
+  color: var(--black);
+  transition: 210ms;
+}
+
+#economy-button a {
+  background-color: var(--black);
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: 'Ropa sans',sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 8px 8px 4px 4px rgba(0, 0, 0, 0.45);
+  margin-right: 350px;
+}
+
+#economy-button a:hover {
+  background-color: var(--blue);
+  color: var(--black);
+  transition: 210ms;
+}
+
+footer {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: var(--gray);
+  padding: 30px 0px;
+  box-shadow: 8px 8px 12px 12px rgba(0, 0, 0, 0.4);
+}
+
+footer p {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 28px;
+  color: var(--black);
+  font-weight: bold;
+}

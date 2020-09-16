@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Astronomia | About.ME</title>
+    <link rel="stylesheet" href="/styles/astronomy.css">
+    <link rel="shortcut icon" href="/images/lion.png">
+  </head>
+
+  <body>
+    
+    <header>
+      <div class="header-container">
+        <a href="/views/home.html">Home</a>
+        <a href="/views/programming.html">Programação</a>
+        <a class = "active" href="/views/astronomy.html">Astronomia</a>
+        <a href="/views/economy.html">Economia</a>
+        <a id = "contact" href="/views/contact.html">Contate-me 📱</a>
+    </header>
+
+    <div class="astronomy-title">
+      <h1 id = "machine-title">Astronomia</h1>
+    </div>
+
+    <div class="astronomy-history">
+      <div class="astronomy-introduction">
+        <h1>Meu contato com a astronomia 🌑</h1>
+        <p>Sinceramente, não me lembro ao certo quando surgiu meu interesse pela astronomia, foi algo espontâneo, comecei a conversar com alguns amigos que gostavam do assunto e isso me motivou a buscar mais conteúdo.</p>  
+        <p>O que mais me cativa no estudo do universo é a sua imensidão imensurável e seus fenômenos incompreensíveis.</p>
+      </div>
+    </div>
+
+    <div class="astronomy-channel">
+      <h1>Canais de conteúdo</h1>
+      <img src="/images/ciencia_todo_dia.png" alt="Ciência Todo Dia">
+      <p>Assim como tudo que queremos nos aprofundar, busquei muito conteúdo no YouTube sobre astromia com explicações didáticas que facilitam o entendimento do conteúdo.</p>
+      <p>Um canal que me chamou a atenção foi o Ciência Todo Dia, apresentado pelo Pedro Loos, no qual ele aborda fenônemos astronômicos e leis universais.</p>
+      <p>Sua didática é muito boa e nota-se que ele realmente entende do assunto.</p>
+      <p id = "recommend">Recomendo para quem quer tentar entender a magnificidade do nosso universo.</p>
+    </div>
+
+    <div class="astronomy-book">
+      <div class="image-book">
+        <img src="/images/cosmos.jpg" alt="Cosmos">
+      </div>
+      <div class="book-details">
+        <h1>Cosmos</h1>
+        <h2>O livro que traz as belezas do universo</h2>
+        <p>Escrito pelo muldialmente famoso, Carl Sagan, Cosmos aborda desde conceitos básicos da física, biologia e química até fenômenos "indescritíveis" que ocorrem ao nosso redor.</p>
+        <p>Bom para quem quer conhecer um pouco do nosso universo, mas já tem conhecimento básico no assunto.</p>
+      </div>
+    </div>
+
+    <div class="other-subjects">
+      <h1>Confira outros assuntos que me cativam</h1>
+    </div>
+
+    <div class="buttons-subjetcs">
+      <div id="programming-button">
+        <a href="/views/programming.html">Programação</a>
+      </div>
+      <div id="economy-button">
+        <a href="/views/economy.html">Economia</a>
+      </div>
+    </div>
+
+    <button onclick = "backToTop()" id="button-top">SUBIR</button>
+
+    <footer>
+      <p>Todos os direitos reservados a Matheus da Cruz</p>
+    </footer>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      #button-top {
+      position: fixed;
+      font-family: 'Ropa Sans',sans-serif;
+      font-size: 18px;
+      bottom: 25px;
+      right: 30px;
+      width: 55px;
+      height: 55px;
+      color: white;
+      background-color: var(--dark-blue);
+      border: none;
+      border-radius: 50vh;
+      display: none;
+      cursor: pointer;
+      }
+
+      #button-top:hover {
+        background-color: var(--black);
+        transition: 220ms;
+      }
+
+    </style>
+
+    <script src="/javaS/scripts.js"></script>
+
+  </body>
+
+</html>

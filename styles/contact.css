@@ -1,0 +1,209 @@
+@import "https://fonts.googleapis.com/css2?family=Courgette&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap";
+
+:root {
+  --black: #131516;
+  --blue: #54AEE3;
+  --dark-blue: #006CB9;
+  --gray: #ABAAAA;
+}
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+  padding: 35px 100px 0px 0px;
+  text-align: right;
+}
+
+.header-container a {
+  padding-right: 15px;
+  text-decoration: none;
+  font-family: 'Courgette', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.header-container a:hover {
+  color: var(--dark-blue);
+  transition: 230ms;
+}
+
+#contact {
+  color: var(--blue);
+}
+
+#contact:hover {
+  color: var(--dark-blue);
+  transition: 230ms;
+}
+
+.contact-title {
+  text-align-last: center;
+  margin: 30px auto;
+}
+
+.contact-title h1 {
+  font-family: 'Courgette',sans-serif;
+  font-size: 90px;
+  color: var(--dark-blue);
+}
+
+#machine-title::after {
+  content: '/>';
+  color: var(--black);
+  margin-left: 10px;
+  opacity: 1;
+}
+
+#machine-title::before {
+  content: '<';
+  margin-right: 10px;
+  color: var(--black);
+  margin-left: 6px;
+  opacity: 1;
+}
+
+.contact-info {
+  margin: 20px auto;
+  text-align: center;
+  color: var(--black);
+}
+
+.contact-info h1 {
+  font-family: 'Courgette', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.contact-info h2 {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 38px;
+  line-height: 48px;
+  color: var(--dark-blue);
+  font-weight: normal;
+  margin: 20px auto;
+}
+
+.contact-social-medias {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  width: 1300px;
+  height: 450px;
+}
+
+.gmail,
+.linkedin,
+.github {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin: 0px 25px;
+  border-radius: 30px 90px;
+  width: 420px;
+  height: 420px;
+}
+
+.gmail img,
+.linkedin img,
+.github img {
+  width: 350px;
+  height: 350px;
+}
+
+#image-gmail {
+  margin-left: 15px;
+}
+
+#image-linkedin {
+  margin: 5px 0px 0px 15px;
+}
+
+#image-github {
+  margin: 20px 0px 0px 35px;
+  width: 320px;
+  height: 320px;
+}
+
+.gmail h1 {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 30px;
+  color: var(--dark-blue);
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.linkedin-info, 
+.github-info, 
+.gmail-info {
+  text-align: center;
+}
+
+.linkedin-info a {
+  text-decoration: none;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 30px;
+  color: var(--black);
+  font-weight: bold;
+  background-color: #2797CF;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.linkedin-info a:hover {
+  color: #2797CF;
+  background-color: var(--black);
+  transition: 200ms;
+}
+
+.github-info {
+  margin-top: 15px;
+}
+
+.github-info a {
+  text-decoration: none;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.github-info a:hover {
+  color: black;
+  background-color: var(--blue);
+  transition: 200ms;
+}
+
+footer {
+  margin-top: 35px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: var(--gray);
+  padding: 30px 0px;
+  box-shadow: 8px 8px 12px 12px rgba(0, 0, 0, 0.4);
+}
+
+footer p {
+  font-family: 'Ropa sans',sans-serif;
+  font-size: 28px;
+  color: var(--black);
+  font-weight: bold;
+}

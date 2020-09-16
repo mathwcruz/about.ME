@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Economia | About.ME</title>
+    <link rel="stylesheet" href="/styles/economy.css">
+    <link rel="shortcut icon" href="/images/lion.png">
+  </head>
+
+  <body>
+    
+    <header>
+      <div class="header-container">
+        <a href="/views/home.html">Home</a>
+        <a href="/views/programming.html">Programação</a>
+        <a href="/views/astronomy.html">Astronomia</a>
+        <a class = "active" href="/views/economy.html">Economia</a>
+        <a id = "contact" href="/views/contact.html">Contate-me 📱</a>
+    </header>
+
+    <div class="economy-title">
+      <h1 id = "machine-title">Economia</h1>
+    </div>
+
+    <div class="economy-history">
+      <div id="economy-introduction">
+        <h1>Meu contato com o mundo financeiro 💲</h1>
+        <p>Quando eu estava no 3°RÃO, eu tive uma palestra sobre controle financeiro e investimentos, a palestra foi simples, somente o básico sobre o tema, mas me motivou a pesquisar mais sobre o assunto.</p>
+        <p>Pesquisando, escontrei alguns canais de finanças e outros que já abordavam o tema de investimentos, como bolsa de valores.</p>
+        <p>Então foi só estudar, estudar e estudar.</p>
+      </div>
+      <div class="image-terceirao">
+        <img src="/images/terceirao.jpg" alt="Terceirão">
+      </div>
+    </div>
+
+    <div class="economy-channel">
+        <h1>Canais de conteúdo</h1>
+        <p id = "economy-channel-p1">Sabemos que qualquer coisa que queremos aprender ou temos dúvida, jogamos as palavras no YouTube e pimba, chove informação.</p>
+        <img src="/images/primo_rico.jpeg" alt="Primo Rico">
+        <p id = "economy-channel-p2">Um dos canais que eu mais aprendi e continuo consumindo conteúdo, é o canal do Thiago Nigro, vulgo Primo.</p>
+        <p id = "economy-channel-p3">Ele fala tanto de hábitos para ajudar a não ter o perfil consumidor abusivo, como a maioria dos brasileiros, além de te explicar como funciona a economia, os principais tipos de investimentos e mostra na prática como ele investe.</p>
+        <p id = "economy-channel-p4">Recomendo muito pra quem é leigo no assunto ou quer entender melhor como o mercado acionário funciona.</p>
+    </div>
+
+    <div class="economy-book">
+      <div class="image-book">
+        <img src="/images/pai_rico_pai_pobre.jpg" alt="Pai rico pai pobre">
+      </div>
+      <div class="book-description">
+        <h1>Pai rico, Pai pobre</h1>
+        <h2>Livro que mudou a minha relação com o dinheiro</h2>
+        <p>Escrito pelo renomado Robert Kiyosaki, esse livro aborda duas maneiras de manipular o dinheiro, a forma pobre e a forma rica.</p>
+        <p>Nele, é abordado os conceitos de passivo e ativo, muito importante para quem não quer ter problemas indesejados com o dinheiro.</p>
+        <p id = "book-recomend">Recomendo muito essa leitura.</p>
+      </div>
+    </div>
+
+    <div class="other-subjects">
+      <h1>Confira outros assuntos que me cativam</h1>
+    </div>
+
+    <div class="buttons-subjetcs">
+      <div id="programming-button">
+        <a href="/views/programming.html">Programação</a>
+      </div>
+      <div id="astronomy-button">
+        <a href="/views/astronomy.html">Astronomia</a>
+      </div>
+    </div>
+
+    <button onclick = "backToTop()" id="button-top">SUBIR</button>
+
+    <footer>
+      <p>Todos os direitos reservados a Matheus da Cruz</p>
+    </footer>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      #button-top {
+      position: fixed;
+      font-family: 'Ropa Sans',sans-serif;
+      font-size: 18px;
+      bottom: 25px;
+      right: 30px;
+      width: 55px;
+      height: 55px;
+      color: white;
+      background-color: var(--dark-blue);
+      border: none;
+      border-radius: 50vh;
+      display: none;
+      cursor: pointer;
+      }
+
+      #button-top:hover {
+        background-color: var(--black);
+        transition: 220ms;
+      }
+
+    </style>
+
+    <script src="/javaS/scripts.js"></script>
+
+  </body>
+
+</html>
