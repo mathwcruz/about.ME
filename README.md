@@ -16,7 +16,7 @@
   <img src="https://github.com/mathwcruz/About.ME/blob/master/GIF-About.ME.gif" width="1000px"/>
 </p>
 
-## <p> <h2 align = "left">  Confira o site ↪️ <a href="https://matheus-cruz-aboutme.netlify.app" target="_blank">Clique para seguir ao site</a> </h2> </p> 
+## <p> <h2 align = "left" target="_blank">  Confira o site ↪️ https://matheus-cruz-aboutme.netlify.app </h2> </p> 
 
  <hr />
 
