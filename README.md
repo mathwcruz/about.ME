@@ -6,9 +6,9 @@
   About.ME 👨‍💻
 </h1>
 
-# <p align="center"> Aplicação front end 📟</p>
+# <p> <h2  align="center"> Aplicação front end 📟 </h2> </p>
 
-## <p align="center">Site em que conto um pouco sobre mim</p>
+## <p> <h2 align="center"> Site em que conto um pouco sobre mim </h2> </p>
 
 # Aplicação 💻 
 
@@ -16,7 +16,7 @@
   <img src="https://github.com/mathwcruz/About.ME/blob/master/GIF-About.ME.gif" width="1000px"/>
 </p>
 
-## <p align = "left" target="_blank"> Confira o site ↪️ https://matheus-cruz-aboutme.netlify.app/ </p>
+## <p> <h2 align = "left"> Confira o site <a target="_blank"> ↪️ https://matheus-cruz-aboutme.netlify.app/ </a> </h2> </p> 
 
  <hr />
 
@@ -27,4 +27,4 @@
 
  ### <p align="center">Iniciando a caminhada para poder participar da maratona nesse mundo da programação 🏃‍</p>
 
- ### <p align="center">Mais uma aplicação realizada por Matheus da Cruz 👨‍💻</p>
+ ### <p> <h2 align="center"> Mais uma aplicação realizada por Matheus da Cruz 👨‍💻 </h2> </p>
