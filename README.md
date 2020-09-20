@@ -16,6 +16,8 @@
   <img src="https://github.com/mathwcruz/About.ME/blob/master/GIF-About.ME.gif" width="1000px"/>
 </p>
 
+## <p align = "left" target="_blank"> Confira o site ↪️ https://matheus-cruz-aboutme.netlify.app/ </p>
+
  <hr />
 
  ### Tecnologias 🚀:
