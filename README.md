@@ -8,15 +8,13 @@
 
 ## **<p> <h2  align="center">Front end application 📟 </h2> </p>**
 
-## <p> <h2 align="center">Site where I tell a little about myself 👨 </h2> </p>
+## <p> <h2 align="center">[Web application](https://matheus-cruz-aboutme.netlify.app) where I tell a little about myself 👨 </h2> </p>
 
 # Web Layout 💻 
 
 <p align="center">
   <img src="https://github.com/mathwcruz/About.ME/blob/master/GIF-About.ME.gif" width="1000px"/>
 </p>
-
-## <p> <h2 align="left">Check out the [web application](https://matheus-cruz-aboutme.netlify.app)</h2></p> 
 
 <br>
 
