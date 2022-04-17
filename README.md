@@ -6,9 +6,9 @@
   About.ME 👨‍💻
 </h1>
 
-## **<p> <h2  align="center">Front end application 📟 </h2> </p>**
+<p> <h2 align="center">Front end application 📟 </h2> </p>
 
-## <p> <h2 align="center">[Web application](https://matheus-cruz-aboutme.netlify.app) where I tell a little about myself 👨 </h2> </p>
+## <h3 align="center">[Web application](https://matheus-cruz-aboutme.netlify.app) where I tell a little about myself 👨 </h3>
 
 # Web Layout 💻 
 
@@ -28,4 +28,4 @@
 
  ### <p align="center">Starting the walk to be able to participate in the marathon in this programming world 🏃‍</p>
 
- ### <p> <h2 align="center">Another application made by Matheus da Cruz 👨‍💻 </h2> </p>
+ ### <p> <h2 align="center">Another application developed by Matheus da Cruz 👨‍💻 </h2> </p>
